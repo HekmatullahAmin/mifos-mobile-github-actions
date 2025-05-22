@@ -331,7 +331,7 @@ jobs:
       - name: Set Xcode version 16.2
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '16.2'
+          xcode-version: latest-stable
 
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -363,7 +363,7 @@ jobs:
       - name: Set Xcode version 16.2
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '16.2'
+          xcode-version: latest-stable
 
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -391,7 +391,7 @@ jobs:
       - name: Set Xcode version 16.2
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '16.2'
+          xcode-version: latest-stable
 
       - name: Checkout Repository
         uses: actions/checkout@v4
